@@ -1,0 +1,12 @@
+>JN255800.1 Hendra virus strain HeV/Australia/Bat/2009/Yeppoon Y47a, complete genome
+>JN255801.1 Hendra virus strain HeV/Australia/Bat/2009/Yeppoon Y4a, complete genome
+>JN255802.1 Hendra virus strain HeV/Australia/Bat/2009/TolgaScrub 30g, complete genome
+>JN255803.1 Hendra virus strain HeV/Australia/Bat/2009/CedarGrove 11c, complete genome
+>JN255804.1 Hendra virus strain HeV/Australia/Horse/2007/Clifton Beach Q, complete genome
+>JN255805.1 Hendra virus strain HeV/Australia/Human Female/2008/Redlands, complete genome
+>JN255806.1 Hendra virus strain HeV/Australia/Horse/2009/Cawarral, complete genome
+>HM044317.1 Hendra virus strain HeV/Australia/Horse/2008/Redlands, complete genome
+>HM044318.1 Hendra virus strain HeV/Australia/Horse/2006/Murwillumbah, complete genome
+>HM044319.1 Hendra virus strain HeV/Australia/Horse/2007/Peachester, complete genome
+>HM044320.1 Hendra virus strain HeV/Australia/Horse/2008/Proserpine, complete genome
+>HM044321.1 Hendra virus strain HeV/Australia/Horse/2007/CliftonBeach, complete genome
