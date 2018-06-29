@@ -23,18 +23,15 @@ config = {
     "clock_filter": {
         "n_iqd": 4,
     },
-    "geo_inference": ['country', 'town', 'host'], # what traits to perform this on
+    "geo_inference": ['town'], # what traits to perform this on
     "geo_inference_options": {
         "root_state": {
-            "country": "australia",
             "town": "cliftonbeach",
-            "host": "horse"
         },
     },
     "auspice": { ## settings for auspice JSON export
         "color_options": {
             # "authors": {"key":"authors", "legendTitle":"Authors", "menuItem":"authors", "type":"discrete"},
-            "country": {"key":"country", "legendTitle":"Country", "menuItem":"country", "type":"discrete"},
             "town": {"key": "town", "legendTitle": "Town", "menuItem": "town", "type": "discrete"},
             "host": {"key": "host", "legendTitle": "Host", "menuItem": "host", "type": "discrete"}
         },

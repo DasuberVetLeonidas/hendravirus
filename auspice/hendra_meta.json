@@ -1,0 +1,251 @@
+{
+ "updated": "29 Jun 2018", 
+ "author_info": {}, 
+ "virus_count": 12, 
+ "defaults": {
+  "mapTriplicate": true
+ }, 
+ "title": "Real-time tracking of Hendra virus transmission", 
+ "controls": {
+  "geographic location": {
+   "cliftonbeach": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "redlands": {
+    "count": 2, 
+    "subcats": {}
+   }, 
+   "cedargrove": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "name": "town", 
+   "yeppoon": {
+    "count": 2, 
+    "subcats": {}
+   }, 
+   "clifton": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "murwillumbah": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "cawarral": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "proserpine": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "peachester": {
+    "count": 1, 
+    "subcats": {}
+   }, 
+   "tolgascrub": {
+    "count": 1, 
+    "subcats": {}
+   }
+  }, 
+  "authors": {
+   "unknown": {
+    "count": 12, 
+    "subcats": {}
+   }, 
+   "name": "authors"
+  }
+ }, 
+ "color_options": {
+  "gt": {
+   "menuItem": "genotype", 
+   "type": "discrete", 
+   "legendTitle": "Genotype", 
+   "key": "genotype"
+  }, 
+  "town": {
+   "menuItem": "town", 
+   "type": "discrete", 
+   "color_map": [
+    [
+     "cliftonbeach", 
+     "#511ea8"
+    ], 
+    [
+     "redlands", 
+     "#3f4dcb"
+    ], 
+    [
+     "cedargrove", 
+     "#4681ca"
+    ], 
+    [
+     "clifton", 
+     "#5aa5a8"
+    ], 
+    [
+     "proserpine", 
+     "#78b67e"
+    ], 
+    [
+     "murwillumbah", 
+     "#9fbe59"
+    ], 
+    [
+     "cawarral", 
+     "#c6b945"
+    ], 
+    [
+     "yeppoon", 
+     "#e0a13a"
+    ], 
+    [
+     "peachester", 
+     "#e57031"
+    ], 
+    [
+     "tolgascrub", 
+     "#dc2f24"
+    ]
+   ], 
+   "legendTitle": "Town", 
+   "key": "town"
+  }, 
+  "host": {
+   "menuItem": "host", 
+   "type": "discrete", 
+   "color_map": [
+    [
+     "bat", 
+     "#511ea8"
+    ], 
+    [
+     "human_female", 
+     "#8cbb69"
+    ], 
+    [
+     "horse", 
+     "#dc2f24"
+    ]
+   ], 
+   "legendTitle": "Host", 
+   "key": "host"
+  }, 
+  "num_date": {
+   "menuItem": "date", 
+   "type": "continuous", 
+   "legendTitle": "Sampling date", 
+   "key": "num_date"
+  }
+ }, 
+ "seq_author_map": {
+  "JN255803.1": null, 
+  "HM044319.1": null, 
+  "HM044318.1": null, 
+  "JN255802.1": null, 
+  "JN255804.1": null, 
+  "HM044317.1": null, 
+  "JN255801.1": null, 
+  "JN255805.1": null, 
+  "JN255800.1": null, 
+  "HM044320.1": null, 
+  "HM044321.1": null, 
+  "JN255806.1": null
+ }, 
+ "filters": [
+  "town", 
+  "host"
+ ], 
+ "commit": "4d37d45475fced492e01d4fe7e63fa0ea8d7b42e", 
+ "maintainer": [
+  "Matt and Leo", 
+  ""
+ ], 
+ "panels": [
+  "tree", 
+  "map", 
+  "entropy"
+ ], 
+ "geo": {
+  "town": {
+   "cliftonbeach": {
+    "latitude": -16.77072, 
+    "longitude": 145.666035
+   }, 
+   "redlands": {
+    "latitude": -27.57904, 
+    "longitude": 153.245102
+   }, 
+   "cedargrove": {
+    "latitude": -27.859641, 
+    "longitude": 152.975477
+   }, 
+   "clifton": {
+    "latitude": -27.938032, 
+    "longitude": 151.918461
+   }, 
+   "proserpine": {
+    "latitude": -20.404974, 
+    "longitude": 148.581766
+   }, 
+   "murwillumbah": {
+    "latitude": -28.333196, 
+    "longitude": 153.382986
+   }, 
+   "cawarral": {
+    "latitude": -23.258229, 
+    "longitude": 150.662509
+   }, 
+   "yeppoon": {
+    "latitude": -23.131279, 
+    "longitude": 150.741244
+   }, 
+   "peachester": {
+    "latitude": -26.850571, 
+    "longitude": 152.885535
+   }, 
+   "tolgascrub": {
+    "latitude": -17.217636, 
+    "longitude": 145.480883
+   }
+  }
+ }, 
+ "annotations": {
+  "G": {
+   "start": 8912, 
+   "end": 10724, 
+   "strand": 1
+  }, 
+  "F": {
+   "start": 6617, 
+   "end": 8255, 
+   "strand": 1
+  }, 
+  "P/V/C": {
+   "start": 2409, 
+   "end": 2907, 
+   "strand": 1
+  }, 
+  "M": {
+   "start": 5083, 
+   "end": 6139, 
+   "strand": 1
+  }, 
+  "L": {
+   "start": 11399, 
+   "end": 18131, 
+   "strand": 1
+  }, 
+  "N": {
+   "start": 112, 
+   "end": 1708, 
+   "strand": 1
+  }, 
+  "nuc": {
+   "start": 1, 
+   "end": 18235
+  }
+ }
+}

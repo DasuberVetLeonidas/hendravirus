@@ -27,19 +27,19 @@ config = {
     "title": "Real-time tracking of Hendra virus transmission",
     "maintainer": ["Matt and Leo", ""],
     "input_paths": ["hendra_edited.fasta"],
-    "header_fields": { 0:'strain', 3:'date', 4:'country', 5:'town', 8: 'host',
+    "header_fields": { 0:'strain', 3:'date', 4:'host', 5:'town', 6: 'country',
                        },
     # "filters": (
     # ),
     # "subsample": {
     #     "category": lambda x:(x.attributes['date'].year, x.attributes['date'].month, x.attributes['town']),
     # },
-    "colors": ["authors", "country", "town", "host"],
-    "color_defs": ["./colors.tsv"],
-    "lat_longs": ["country", "town"],
-    "auspice_filters": ["accession", "country", "town", "host"],
+    "colors": ["town", "host", "country"],
+    "color_defs": ["colors.tsv"],
+    "lat_longs": ["town"],
+    "auspice_filters": ["town", "host"],
     "reference": {
-        "path": "./hendra.gb",
+        "path": "hendra.gb",
         "metadata": {
             'strain': "Hendra henipavirus", "accession": "NC_001906", "date": "07-AUG-2013",
             'host': "horse", 'country': "australia"

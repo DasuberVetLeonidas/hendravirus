@@ -1,0 +1,37 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		HM044318.1
+		JN255804.1
+		HM044321.1
+		HM044320.1
+		JN255806.1
+		JN255805.1
+		HM044317.1
+		HM044319.1
+		JN255803.1
+		JN255801.1
+		JN255800.1
+		JN255802.1
+		;
+End;
+
+Begin trees;
+	Translate
+		1 HM044318.1,
+		2 JN255804.1,
+		3 HM044321.1,
+		4 HM044320.1,
+		5 JN255806.1,
+		6 JN255805.1,
+		7 HM044317.1,
+		8 HM044319.1,
+		9 JN255803.1,
+		10 JN255801.1,
+		11 JN255800.1,
+		12 JN255802.1
+		;
+tree TREE1 = [&R] (1[&town="murwillumbah",town_confidence="{u'murwillumbah': 1.0}",num_date="2006.79945243",num_date_confidence="[2006.7994524298426, 2006.7994524298426]",town_entropy="-0.0",div="0.00534392679516"]:0.00534392679516,((2[&town="clifton",town_confidence="{u'clifton': 1.0}",num_date="2007.54757016",num_date_confidence="[2007.5475701574264, 2007.5475701574264]",town_entropy="-0.0",div="0.00467108906574"]:0.00060395458998,3[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 1.0}",num_date="2007.54757016",num_date_confidence="[2007.5475701574264, 2007.5475701574264]",town_entropy="-0.0",div="0.00489080877836"]:0.000823674302597)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.9987825122258718}",num_date="2003.56386147",num_date_confidence="[2002.2696449180974, 2004.679739192271]",town_entropy="0.00442633551157",div="0.00406713447576"]:0.00186865578654,(4[&town="proserpine",town_confidence="{u'proserpine': 1.0}",num_date="2008.55030801",num_date_confidence="[2008.5503080082135, 2008.5503080082135]",town_entropy="-0.0",div="0.00566410402981"]:0.00324612412234,(5[&town="cawarral",town_confidence="{u'cawarral': 1.0}",num_date="2009.63244353",num_date_confidence="[2009.6324435318274, 2009.6324435318274]",town_entropy="-0.0",div="0.00533130289359"]:0.00258403665955,((6[&town="redlands",town_confidence="{u'redlands': 1.0}",num_date="2008.55030801",num_date_confidence="[2008.5503080082135, 2008.5503080082135]",town_entropy="-0.0",div="0.0057719230765"]:5.29043102729e-11,7[&town="redlands",town_confidence="{u'redlands': 1.0}",num_date="2008.55030801",num_date_confidence="[2008.5503080082135, 2008.5503080082135]",town_entropy="-0.0",div="0.0057719230765"]:5.29043102729e-11)[&town="redlands",town_confidence="{u'redlands': 0.9999999999998939}",num_date="2008.55030801",num_date_confidence="[2008.1962168409523, 2008.5503080082135]",town_entropy="1.48622149528e-12",div="0.00577192302359"]:0.00280515123249,(8[&town="peachester",town_confidence="{u'peachester': 1.0}",num_date="2007.46543463",num_date_confidence="[2007.4654346338125, 2007.4654346338125]",town_entropy="-0.0",div="0.00610119964634"]:0.0030246866225,(9[&town="cedargrove",town_confidence="{u'cedargrove': 1.0}",num_date="2009.59137577",num_date_confidence="[2009.5913757700205, 2009.5913757700205]",town_entropy="-0.0",div="0.00599057684399"]:0.000219505246411,(10[&town="yeppoon",town_confidence="{u'yeppoon': 1.0}",num_date="2009.61327858",num_date_confidence="[2009.6132785763175, 2009.6132785763175]",town_entropy="-0.0",div="0.00582593886692"]:5.29043102729e-11,(11[&town="yeppoon",town_confidence="{u'yeppoon': 1.0}",num_date="2009.61875428",num_date_confidence="[2009.6187542778919, 2009.6187542778919]",town_entropy="-0.0",div="0.00582593891982"]:5.29043102729e-11,12[&town="tolgascrub",town_confidence="{u'tolgascrub': 1.0}",num_date="2009.64339493",num_date_confidence="[2009.643394934976, 2009.643394934976]",town_entropy="-0.0",div="0.00582593891982"]:5.29043102729e-11)[&town="yeppoon",town_confidence="{u'yeppoon': 0.9999999302438628}",num_date="2009.61875428",num_date_confidence="[2009.3930151477603, 2009.6187542778919]",town_entropy="5.31284709698e-07",div="0.00582593886692"]:5.29043102729e-11)[&town="yeppoon",town_confidence="{u'yeppoon': 0.999999614170515}",num_date="2009.48424797",num_date_confidence="[2009.1420475681275, 2009.6038091321655]",town_entropy="2.72225860417e-06",div="0.00582593881402"]:5.48672164324e-05)[&town="yeppoon",town_confidence="{u'yeppoon': 0.5378225167054069, u'cedargrove': 0.4447829860730409}",num_date="2008.97208622",num_date_confidence="[2008.2491628169655, 2009.2517898682634]",town_entropy="0.341917950931",div="0.00577107159758"]:0.00269455857374)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.42787664832915845, u'redlands': 0.12616466062257564, u'peachester': 0.17918907123226527, u'yeppoon': 0.08521709324647854}",num_date="1995.63321511",num_date_confidence="[1994.2696447984395, 1997.0182429392019]",town_entropy="0.714410094665",div="0.00307651302384"]:0.000109741232735)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.4697833222080108, u'redlands': 0.13851423465437057, u'peachester': 0.14436092829443709, u'cawarral': 0.08247860752765028}",num_date="1995.01299636",num_date_confidence="[1993.6719545505068, 1996.3843663664197]",town_entropy="0.690461458885",div="0.0029667717911"]:0.000219505557063)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.5713689507019999, u'redlands': 0.09513454765979529, u'peachester': 0.09914991735102785, u'cawarral': 0.10030056981987209}",num_date="1994.01932718",num_date_confidence="[1992.6519508195106, 1995.4100326441314]",town_entropy="0.617214639302",div="0.00274726623404"]:0.000329286326574)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.7534675905931347, u'proserpine': 0.06280595328417347, u'peachester': 0.04777867405933621, u'cawarral': 0.048333093195832844}",num_date="1992.7072956",num_date_confidence="[1991.2209508585715, 1994.08860789015]",town_entropy="0.426933655422",div="0.00241797990747"]:0.000219501218245)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.9985187261571656}",num_date="1991.39197307",num_date_confidence="[1989.773291748967, 1992.8422058472768]",town_entropy="0.00604484284343",div="0.00219847868922"]:0.00219847868922)[&town="cliftonbeach",town_confidence="{u'cliftonbeach': 0.9999999370095841}",num_date="1980.82900379",num_date_confidence="[1977.9966076867213, 1983.283749915406]",town_entropy="5.30610484651e-07",div="0"]:0.0;
+End;
