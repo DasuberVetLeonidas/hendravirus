@@ -1,7 +1,7 @@
 from Bio import SeqIO
 from Bio import Entrez
 import sys
-Entrez.email="a1628675@student.adelaide.edu.au"
+Entrez.email="##############"
 for i in open(sys.argv[1]):
     record_id = i.strip()
     new_handle = Entrez.efetch(db="nucleotide", id=record_id, rettype="gb", retmode="genbank")
